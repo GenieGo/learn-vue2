@@ -1,24 +1,32 @@
 {
-  "name": "emotion-diary-vue2",
+  "name": "learn-vue2",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --port 4173",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "dev": "vite",
+    "preview": "vite preview --port 4173"
   },
   "dependencies": {
-    "vue": "^2.7.7"
+    "vue": "^2.7.7",
+    "vue-router": "^3.6.5",
+    "vuetify": "^2.6.0",
+    "vuex": "^2.0.0"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.0",
     "@vitejs/plugin-legacy": "^2.0.0",
     "@vitejs/plugin-vue2": "^1.1.2",
+    "@vue/cli-plugin-router": "~5.0.0",
     "@vue/eslint-config-prettier": "^7.0.0",
     "eslint": "^8.5.0",
     "eslint-plugin-vue": "^9.0.0",
     "prettier": "^2.5.1",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
     "terser": "^5.14.2",
-    "vite": "^3.0.2"
+    "vite": "^3.0.2",
+    "vue-cli-plugin-vuetify": "~2.5.8",
+    "vuetify-loader": "^1.7.0"
   }
 }
