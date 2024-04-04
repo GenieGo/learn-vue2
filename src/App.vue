@@ -6,6 +6,7 @@
 
     <v-app-bar app>
       <!-- -->
+      header
     </v-app-bar>
 
     <!-- Sizes your content based upon application components -->
