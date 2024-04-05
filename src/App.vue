@@ -4,10 +4,9 @@
       <!-- -->
     </v-navigation-drawer>
 
-    <v-app-bar app>
-      <!-- -->
-      header
-    </v-app-bar>
+    <!-- <v-app-bar app>
+    </v-app-bar> -->
+    <DiaryHeader :title="'header'" />
 
     <!-- Sizes your content based upon application components -->
     <v-main>
@@ -25,10 +24,13 @@
 </template>
 
 <script>
+import DiaryHeader from "./components/DiaryHeader.vue";
 export default {
   name: "App",
 
-  components: {},
+  components: {
+    DiaryHeader,
+  },
 
   data: () => ({
     //
